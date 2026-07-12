@@ -1,19 +1,26 @@
-☐ Criar identidade visual
+# TODO
 
-☐ Desenvolver Home
+## Infraestrutura
 
-☐ Criar página Rua Maria da Glória
+- [x] Criar repositório
+- [x] Organizar diretórios
+- [ ] Configurar GitHub Pages
 
-☐ Criar página Área Paciência
+## Desenvolvimento
 
-☐ Adicionar Google Maps
+- [ ] Página inicial
+- [ ] Página Rua Maria da Glória
+- [ ] Página Área Paciência
+- [ ] Página Contato
 
-☐ Criar favicon
+## Design
 
-☐ Otimizar imagens
+- [ ] Identidade visual
+- [ ] Responsividade
 
-☐ Criar QR Code
+## Publicação
 
-☐ Publicar GitHub Pages
-
-☐ Registrar domínio
+- [ ] SEO
+- [ ] Sitemap
+- [ ] robots.txt
+- [ ] Domínio próprio

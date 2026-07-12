@@ -1,15 +1,7 @@
 # Changelog
 
-## v0.1 - Initial project structure
+## v0.1.0
 
-- Criação do repositório
-- Estrutura inicial de diretórios
+- Estrutura inicial do projeto
+- Organização dos diretórios
 - README.md
-- Organização das pastas
-
-## v0.2
-
-- Criação da Home
-- Header
-- Hero
-- Footer
