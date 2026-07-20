@@ -22,3 +22,18 @@ Disponibilizar informações claras, fotografias, localização, documentação 
 ## Status
 
 🚧 Em desenvolvimento
+
+
+## Terrenos Matozinhos
+
+Site desenvolvido para apresentação de imóveis urbanos localizados em Matozinhos/MG.
+
+Objetivos
+
+• apresentar os imóveis de forma profissional;
+
+• concentrar fotografias, mapas e informações técnicas;
+
+• facilitar o contato com interessados;
+
+• servir como apoio aos anúncios publicados pelas imobiliárias.
