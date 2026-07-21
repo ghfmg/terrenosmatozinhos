@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     width: min(1200px, calc(100% - 3rem));
     margin-inline: auto;
 }
-

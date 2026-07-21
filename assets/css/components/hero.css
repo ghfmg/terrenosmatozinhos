@@ -1,0 +1,89 @@
+.hero{
+
+    min-height:55vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,.70),
+            rgba(0,0,0,.70)
+        ),
+        url("../../images/hero/capa.webp");
+
+    background-size:cover;
+
+    background-position:center center;
+
+    background-repeat:no-repeat;
+
+    color: #ffffff;
+
+}
+
+.hero-content {
+
+    max-width: 760px;
+    padding: 5rem 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hero-tag{
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:1rem;
+
+    font-weight:600;
+
+    font-size:.95rem;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+    line-height:1.15;
+
+    margin-bottom:1.5rem;
+ 
+}
+
+.hero-description{
+
+    font-size:1.2rem;
+
+    line-height:1.7;
+
+    margin-bottom:2rem;
+
+    max-width:650px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:1rem;
+
+    flex-wrap:wrap;
+
+}
+
+.hero h1,
+.hero-description,
+.hero-tag{
+
+    text-shadow:
+        0 2px 5px rgba(0,0,0,.35);
+
+}
+
