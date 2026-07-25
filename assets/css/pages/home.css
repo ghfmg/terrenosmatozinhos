@@ -9,3 +9,115 @@
 .section-description {
     margin-bottom: 2rem;
 }
+
+/* ==========================================
+   POR QUE INVESTIR EM MATOZINHOS
+   ========================================== */
+
+.highlights{
+
+    padding:6rem 0;
+
+    background:#f8f9fb;
+
+}
+
+.highlight-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:2rem;
+
+    margin-top:3rem;
+
+}
+
+.highlight-card{
+
+    background:#ffffff;
+
+    padding:2rem;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.highlight-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 30px rgba(0,0,0,.10);
+
+}
+
+.highlight-icon{
+
+    font-size:2.5rem;
+
+    margin-bottom:1rem;
+
+}
+
+.highlight-card h3{
+
+    margin-bottom:1rem;
+
+}
+
+.highlight-card p{
+
+    line-height:1.7;
+
+    color:var(--color-text-light);
+
+}
+
+/* ==========================================
+   CONTATO
+   ========================================== */
+
+.contact {
+
+    padding: 6rem 0;
+
+}
+
+.contact-box {
+
+    max-width: 760px;
+
+    margin: 0 auto;
+
+    padding: 3rem;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.contact-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 1rem;
+
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+
+}
