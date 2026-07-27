@@ -7,9 +7,9 @@
     top: 0;
     z-index: 1000;
 
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
 }
 
 .site-header .container {
@@ -67,7 +67,7 @@
     text-decoration: none;
     font-weight: 500;
 
-    transition: color 0.3s ease;
+    transition: color var(--transition);
 }
 
 .main-nav a:hover {

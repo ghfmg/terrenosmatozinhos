@@ -1,4 +1,47 @@
+/* ==========================================
+   CONTAINER
+   ========================================== */
+
 .container {
-    width: min(1200px, calc(100% - 3rem));
+   
+    width: min(var(--container-width), calc(100% - (2 * var(--space-sm))));
+
     margin-inline: auto;
+
+}
+
+/* ==========================================
+   SEÇÕES
+   ========================================== */
+
+section {
+
+    padding: var(--space-xl) 0;
+
+}
+
+/* ==========================================
+   TÍTULOS DAS SEÇÕES
+   ========================================== */
+
+.section-title {
+
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+
+    text-align: center;
+
+}
+
+.section-description {
+
+    max-width: 720px;
+
+    margin: 0 auto 3rem;
+
+    text-align: center;
+
+    color: var(--color-text-light);
+
 }

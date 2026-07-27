@@ -1,0 +1,93 @@
+/* ==========================================
+   TABLETS
+   ========================================== */
+
+@media (max-width: 992px) {
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+
+}
+
+/* ==========================================
+   CELULARES
+   ========================================== */
+
+@media (max-width: 768px) {
+
+    .site-header .container {
+        flex-direction: column;
+        gap: var(--space-sm);
+        padding: var(--space-sm) 0;
+    }
+
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--space-sm);
+    }
+
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: var(--space-lg) 0;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .property-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .property-card img {
+        height: 220px;
+    }
+
+    .footer-brand {
+        justify-content: center;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+}
+
+/* ==========================================
+   CELULARES PEQUENOS
+   ========================================== */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+}

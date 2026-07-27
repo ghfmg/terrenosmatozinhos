@@ -1,5 +1,5 @@
 /* ==========================================
-   CARDS
+   GRID DE IMÓVEIS
    ========================================== */
 
 .property-grid {
@@ -8,7 +8,7 @@
 
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 
-    gap: 2rem;
+    gap: var(--space-md);
 
 }
 
@@ -18,24 +18,21 @@
 
 .property-card {
 
-    background: #ffffff;
-
-    border-radius: 10px;
-
-    overflow: hidden;
-
-    box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
-
-    transition:
-        transform .30s ease,
-        box-shadow .30s ease;
-
-
     display: flex;
 
     flex-direction: column;
 
+    background: var(--color-white);
 
+    border-radius: var(--radius-md);
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow-md);
+
+    transition:
+        transform var(--transition),
+        box-shadow var(--transition);
 
 }
 
@@ -43,7 +40,7 @@
 
     transform: translateY(-6px);
 
-    box-shadow: 0 16px 36px rgba(0, 0, 0, .12);
+    box-shadow: var(--shadow-lg);
 
 }
 
@@ -53,13 +50,13 @@
 
 .property-card img {
 
+    display: block;
+
     width: 100%;
 
     height: 240px;
 
     object-fit: cover;
-
-    display: block;
 
 }
 
@@ -69,58 +66,68 @@
 
 .property-content {
 
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+
     padding: 1.75rem;
 
-    display:flex;
-
-    flex-direction:column;
-
-    flex:1;
-
 }
 
-.property-content h3 {
-
-    margin-bottom: 1rem;
-
-    font-size: 1.5rem;
-
-}
-
-.property-content p {
-
-    margin-bottom: 1.5rem;
-
-    color: var(--color-text-light);
-
-    line-height: 1.7;
-
-}
+/* ==========================================
+   TÍTULO
+   ========================================== */
 
 .property-title {
+
     margin-bottom: .75rem;
+
     font-size: 1.5rem;
+
     color: var(--color-text);
+
 }
+
+/* ==========================================
+   DESCRIÇÃO
+   ========================================== */
 
 .property-description {
-    margin-bottom: 2rem;
+
+    margin-bottom: var(--space-md);
+
     line-height: 1.7;
+
     color: var(--color-text-light);
-    
-    min-height:4.5rem;
+
+    min-height: 4.5rem;
+
 }
+
+/* ==========================================
+   LOCALIZAÇÃO
+   ========================================== */
 
 .property-location {
+
     margin-bottom: 1.5rem;
+
     font-weight: 600;
+
     color: var(--color-primary);
+
 }
 
-.property-content .btn{
+/* ==========================================
+   BOTÃO
+   ========================================== */
 
-    margin-top:auto;
+.property-content .btn {
 
-    align-self:flex-start;
+    margin-top: auto;
+
+    align-self: flex-start;
 
 }

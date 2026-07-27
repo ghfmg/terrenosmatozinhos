@@ -20,3 +20,12 @@
 - Cards dos imóveis
 
 ---
+
+## Versão 0.8.0
+
+- Revisão completa da arquitetura CSS
+- Padronização dos componentes
+- Início do desenvolvimento das páginas individuais dos imóveis
+
+---
+
