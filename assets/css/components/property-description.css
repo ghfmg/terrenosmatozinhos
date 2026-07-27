@@ -1,0 +1,27 @@
+/* ==========================================
+   SOBRE O IMÓVEL
+========================================== */
+
+.property-description{
+
+    padding:var(--space-xl) 0;
+
+}
+
+.property-text{
+
+    max-width:850px;
+
+    margin:0 auto;
+
+}
+
+.property-text p{
+
+    margin-bottom:1.5rem;
+
+    line-height:1.9;
+
+    text-align:justify;
+
+}

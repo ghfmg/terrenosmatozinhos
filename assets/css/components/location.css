@@ -1,0 +1,23 @@
+.location-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:var(--space-lg);
+
+}
+
+.location-list{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.location-list li{
+
+    margin-bottom:1rem;
+
+}

@@ -1,0 +1,55 @@
+/* ==========================================
+   CONTATO
+========================================== */
+
+.property-contact{
+
+    padding:var(--space-xxl) 0;
+
+}
+
+.contact-box{
+
+    max-width:800px;
+
+    margin:0 auto;
+
+    padding:3rem;
+
+    text-align:center;
+
+    background:#ffffff;
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.contact-box h2{
+
+    margin-bottom:1rem;
+
+}
+
+.contact-box p{
+
+    line-height:1.8;
+
+}
+
+.contact-box .hero-buttons{
+
+    justify-content:center;
+
+    margin:2rem 0;
+
+}
+
+.contact-note{
+
+    font-size:.95rem;
+
+    color:var(--color-text-light);
+
+}

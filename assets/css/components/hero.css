@@ -119,3 +119,55 @@
         0 2px 5px rgba(0, 0, 0, .35);
 
 }
+
+/* ==========================================
+   HERO DAS PÁGINAS DOS IMÓVEIS
+   ========================================== */
+
+.property-hero .hero-numbers {
+
+    display: flex;
+
+    gap: 1.5rem;
+
+    margin: 2rem 0;
+
+    flex-wrap: wrap;
+
+}
+
+.property-hero .hero-numbers article {
+
+    min-width: 180px;
+
+    padding: 1rem 1.5rem;
+
+    border: 1px solid rgba(255,255,255,.25);
+
+    border-radius: var(--radius-md);
+
+    background: rgba(255,255,255,.08);
+
+    backdrop-filter: blur(4px);
+
+}
+
+.property-hero .hero-numbers strong {
+
+    display: block;
+
+    font-size: 1.6rem;
+
+    color: #ffffff;
+
+    margin-bottom: .35rem;
+
+}
+
+.property-hero .hero-numbers span {
+
+    color: rgba(255,255,255,.85);
+
+    font-size: .95rem;
+
+}

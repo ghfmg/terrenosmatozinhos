@@ -1,0 +1,65 @@
+/* ==========================================
+   CARACTERÍSTICAS DO IMÓVEL
+   ========================================== */
+
+.property-features {
+
+    padding: var(--space-xl) 0;
+
+}
+
+.features-list {
+
+    margin-top: var(--space-md);
+
+}
+
+.feature-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    padding: 1rem 0;
+
+    border-bottom: 1px solid #ececec;
+
+}
+
+.feature-row dt {
+
+    font-weight: 600;
+
+    color: var(--color-text);
+
+}
+
+.feature-row dd {
+
+    margin: 0;
+
+    color: var(--color-primary);
+
+    font-weight: 600;
+
+    text-align: right;
+
+}
+
+.feature-row.highlight {
+
+    background: #f8fbff;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    border-left: 4px solid var(--color-primary);
+
+    border-radius: var(--radius-sm);
+
+}
