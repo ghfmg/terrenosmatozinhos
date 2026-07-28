@@ -10,12 +10,12 @@
 
     align-items: center;
 
-    background-image:
+    /* background-image:
         linear-gradient(
             rgba(0, 0, 0, .65),
             rgba(0, 0, 0, .65)
         ),
-        url("../../images/hero/capa.webp");
+        url("../../images/hero/capa.webp"); */
 
     background-size: cover;
 
@@ -171,3 +171,37 @@
     font-size: .95rem;
 
 }
+
+.hero-maria-gloria{
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,.60),
+            rgba(0,0,0,.60)
+        ),
+        url("../../images/maria-da-gloria/foto-01.webp");
+
+}
+
+.hero-paciencia{
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.45)
+        ),
+        url("../../images/paciencia/foto-01.webp");
+
+}
+
+.hero-home{
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,.60),
+            rgba(0,0,0,.60)
+        ),
+        url("../../images/hero/capa.webp");
+
+}
+
