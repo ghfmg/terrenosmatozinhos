@@ -73,6 +73,7 @@
     flex: 1;
 
     padding: 1.75rem;
+    
 
 }
 
@@ -129,5 +130,39 @@
     margin-top: auto;
 
     align-self: flex-start;
+
+}
+
+
+
+.related-properties .cards-grid{
+
+    justify-content:center;
+
+}
+
+.related-properties .property-card{
+
+    max-width:420px;
+
+    margin:0 auto;
+
+}
+
+.related-properties .section-header{
+
+    margin-bottom: 3rem;
+
+}
+
+.card-content {
+
+    padding: 1.5rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: .75rem;
 
 }
