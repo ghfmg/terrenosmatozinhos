@@ -1,0 +1,159 @@
+/* ==========================================
+   LOCALIZAÇÃO
+   ========================================== */
+
+.location-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1.1fr;
+
+    gap:3rem;
+
+    align-items:center;
+
+    margin-top:3rem;
+
+}
+
+/* ==========================================
+   COLUNA ESQUERDA
+   ========================================== */
+
+.location-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2rem;
+
+}
+
+.location-card{
+
+    background:var(--color-white);
+
+    padding:2rem;
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.location-card h3{
+
+    margin-bottom:.75rem;
+
+    color:var(--color-primary);
+
+}
+
+.location-card p{
+
+    margin:0;
+
+    line-height:1.7;
+
+}
+
+/* ==========================================
+   ENTORNO
+   ========================================== */
+
+.nearby-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:1rem;
+
+}
+
+.nearby-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.75rem;
+
+    padding:1rem;
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-md);
+
+    background:var(--color-surface);
+
+    transition:.25s;
+
+}
+
+.nearby-item:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.nearby-icon{
+
+    font-size:1.4rem;
+
+}
+
+/* ==========================================
+   DESTAQUE
+   ========================================== */
+
+.location-highlight{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+    padding:1.5rem;
+
+    border-radius:var(--radius-lg);
+
+}
+
+.location-highlight strong{
+
+    display:block;
+
+    margin-bottom:.75rem;
+
+    font-size:1.1rem;
+
+}
+
+.location-highlight p{
+
+    margin:0;
+
+    line-height:1.7;
+
+}
+
+/* ==========================================
+   MAPA
+   ========================================== */
+
+.location-map iframe{
+
+    width:100%;
+
+    height:520px;
+
+    border:0;
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow-md);
+
+}

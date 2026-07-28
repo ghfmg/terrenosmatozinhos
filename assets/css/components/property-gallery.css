@@ -1,0 +1,51 @@
+/* ==========================================
+   GALERIA
+========================================== */
+
+.property-gallery{
+
+    padding: var(--space-xl) 0;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:var(--space-lg);
+
+}
+
+.gallery-item{
+
+    background:#ffffff;
+
+    border-radius:var(--radius-md);
+
+    overflow:hidden;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+.gallery-item img{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+}
+
+.gallery-item figcaption{
+
+    padding:1rem;
+
+    font-size:.95rem;
+
+    text-align:center;
+
+}
