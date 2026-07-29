@@ -2,29 +2,23 @@
    FOOTER
    ========================================== */
 
-.site-footer {
+.site-footer{
 
-    margin-top: var(--space-xl);
+    margin-top:5rem;
 
-    background: var(--color-primary);
+    background:#1f2937;
 
-    color: var(--color-white);
+    color:#ffffff;
 
 }
 
 /* ==========================================
-   CONTEÚDO
+   CONTAINER
    ========================================== */
 
-.footer-content {
+.site-footer .container{
 
-    display: grid;
-
-    grid-template-columns: 2fr 1fr 1fr;
-
-    gap: 3rem;
-
-    padding: var(--space-lg) 0;
+    padding:2rem 0 1.5rem;
 
 }
 
@@ -32,105 +26,135 @@
    MARCA
    ========================================== */
 
-.footer-brand {
+.footer-brand{
 
-    display: flex;
+    display:flex;
 
-    align-items: flex-start;
+    align-items:center;
 
-    gap: var(--space-sm);
+    gap:1.25rem;
 
-}
+    margin:0;
 
-.footer-brand img {
-
-    width: 48px;
-
-    height: 48px;
+    padding:0;
 
 }
 
-.footer-brand h3 {
+.footer-brand img{
 
-    margin-bottom: .75rem;
+    flex-shrink:0;
 
-}
+    width:56px;
 
-.footer-brand p {
-
-    line-height: 1.7;
-
-    opacity: .85;
+    height:56px;
 
 }
 
-/* ==========================================
-   NAVEGAÇÃO
-   ========================================== */
+.footer-brand h3{
 
-.footer-nav ul {
+    margin:0 0 .35rem;
 
-    list-style: none;
-
-    margin-top: var(--space-sm);
+    font-size:1.6rem;
 
 }
 
-.footer-nav li {
+.footer-brand p{
 
-    margin-bottom: .75rem;
+    margin:0;
 
-}
+    line-height:1.6;
 
-.footer-nav a {
-
-    color: var(--color-white);
-
-    text-decoration: none;
-
-    transition: color var(--transition);
+    opacity:.9;
 
 }
 
-.footer-nav a:hover {
+.footer-slogan{
 
-    text-decoration: underline;
+    display:block;
 
-    opacity: .85;
+    margin-top:.5rem;
+
+    font-size:.9rem;
+
+    opacity:.65;
 
 }
 
 /* ==========================================
-   CONTATO
+   DIVISÓRIA
    ========================================== */
 
-.footer-contact h4 {
+.footer-divider{
 
-    margin-bottom: var(--space-sm);
+    margin:1.5rem 0;
 
-}
+    border:none;
 
-.footer-contact p {
-
-    margin-bottom: .75rem;
+    border-top:1px solid rgba(255,255,255,.15);
 
 }
 
-.footer-contact a {
+/* ==========================================
+   COLUNAS
+   ========================================== */
 
-    color: var(--color-white);
+.footer-columns{
 
-    text-decoration: none;
+    display:grid;
 
-    transition: color var(--transition);
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
 
 }
 
-.footer-contact a:hover {
+.footer-columns > div{
 
-    text-decoration: underline;
+    margin:0;
 
-    opacity: .85;
+    padding:0;
+
+}
+
+.footer-columns h4{
+
+    margin:0 0 .9rem;
+
+    font-size:1.05rem;
+
+}
+
+.footer-columns ul{
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.footer-columns li{
+
+    margin-bottom:.7rem;
+
+    line-height:1.6;
+
+}
+
+.footer-columns a{
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    transition:opacity .25s;
+
+}
+
+.footer-columns a:hover{
+
+    opacity:.75;
 
 }
 
@@ -138,14 +162,94 @@
    RODAPÉ INFERIOR
    ========================================== */
 
-.footer-bottom {
+.footer-bottom{
 
-    border-top: 1px solid rgba(255, 255, 255, .15);
+    margin-top:1.75rem;
 
-    padding: 1.5rem 0;
+    padding-top:1.25rem;
 
-    text-align: center;
+    border-top:1px solid rgba(255,255,255,.15);
 
-    font-size: .9rem;
+    text-align:center;
+
+}
+
+.footer-bottom p{
+
+    margin:0;
+
+}
+
+.footer-note{
+
+    margin-top:.5rem !important;
+
+    font-size:.9rem;
+
+    opacity:.65;
+
+}
+
+/* ==========================================
+   RESPONSIVO
+   ========================================== */
+
+@media (max-width:768px){
+
+    .footer-brand{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .footer-columns{
+
+        grid-template-columns:1fr;
+
+        gap:1.75rem;
+
+    }
+
+}
+
+/* ==========================================
+   ÍCONES
+   ========================================== */
+
+.footer-columns li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.6rem;
+
+}
+
+.footer-columns a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.6rem;
+
+    color:#fff;
+
+    text-decoration:none;
+
+}
+
+.footer-icon{
+
+    width:20px;
+
+    height:20px;
+
+    flex-shrink:0;
+
+    opacity:.9;
 
 }
